@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter";
+  font-size: 1.4rem;
+  line-height: 1.1;
+  background-color: #141414;
+  color: #fff;
+}
+
+main {
+  padding: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: 400;
+  padding: 2rem 0 1rem 0;
+}
+
+.container {
+  max-width: 40rem;
+  padding: 5rem;
+  background-color: #1f1f1f;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  color: #c5f82a;
+  font-weight: 700;
+  padding-bottom: 2.5rem;
+}
+
+.description {
+  font-weight: 200;
+  padding-bottom: 2rem;
+}
+
+.container-social-midias {
+  display: flex;
+  flex-flow: column;
+}
+
+.btn {
+  background-color: #333333;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1.5rem 10rem;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #c5f82a;
+  color: #000;
+}
+
+@media (max-width: 375px) {
+  main {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 35rem;
+    padding: 2rem;
+  }
+}
