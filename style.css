@@ -67,6 +67,11 @@ h1 {
   flex-flow: column;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .btn {
   background-color: #333333;
   font-weight: 700;
@@ -81,6 +86,9 @@ h1 {
 
 .btn:hover {
   background-color: #c5f82a;
+  color: #000;
+}
+.btn:hover a {
   color: #000;
 }
 
